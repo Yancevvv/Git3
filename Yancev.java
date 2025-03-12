@@ -16,15 +16,15 @@ public class Robot {
     private Battery battery;
 
     private boolean isActive;
-
+// getPos
     public Cell getPosition() {
         return position;
     }
-
+// setPos
     void setPosition(Cell position) {
         this.position = position;
     }
-
+//Move
     public void move(@NotNull Direction direction) {
         if(isActive) {
             Cell newPosition = canMove(direction);
