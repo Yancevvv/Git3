@@ -11,6 +11,7 @@ class Solution {
                 left++;
             }
 
+            // Hello boss, it's my second commit in my branch
             usedChars.add(s.charAt(right));
 
             maxLen = Math.max(maxLen, usedChars.size());
