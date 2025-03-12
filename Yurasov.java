@@ -1,6 +1,7 @@
 import java.util.*;
 
 class Solution {
+    // Hello boss, it's my first commit in my branch
     public int lengthOfLongestSubstring(String s) {
         Set<Character> usedChars = new HashSet<>();
         int maxLen = 0;
